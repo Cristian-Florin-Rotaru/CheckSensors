@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--Colors for dark theme-->
+    <color name="darkBlueGrey0">#424242</color>
+    <color name="darkBlueGrey1">#303030</color>
+    <color name="darkBlueGrey2">#212121</color>
+    <color name="darkBlueGrey3">#000000</color>
+<!--Colors for light theme-->
+    <color name="greenBar">#009900</color>
+    <color name="darkGreen">#006600</color>
+    <color name="colorAccent">#c700c7</color>
+    <color name="actionBar">#20d400</color>
+    <color name="whitey">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+
+    <!--    &lt;!&ndash;Colors for dark theme&ndash;&gt;
+        <color name="darkBlueGrey0">#78909C</color>
+        <color name="darkBlueGrey1">#CFD8DC</color>
+        <color name="darkBlueGrey2">#37474F</color>
+        <color name="darkBlueGrey3">#263238</color>-->
+</resources>

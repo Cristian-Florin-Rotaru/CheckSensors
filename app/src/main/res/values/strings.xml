@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Check Sensors</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="useDarkTheme">Use Dark Theme</string>
+    <string name="useLightTheme">Use Light Theme</string>
+    <string name="sensorName">Sensor Name</string>
+</resources>

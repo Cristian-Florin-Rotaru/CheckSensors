@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sensorName"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_margin="15dp"
+            android:text="@string/sensorName"
+            android:textSize="30dp" />
+
+    <!-- A CardView that contains a TextView -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0.0px"
+            android:elevation="10dp"
+            card_view:cardBackgroundColor="@color/darkBlueGrey2"
+            card_view:cardCornerRadius="2dp"
+            card_view:cardElevation="10dp"
+            card_view:cardPreventCornerOverlap="false">
+
+            <TextView
+                android:id="@+id/info_text2"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_margin="5dp"
+                android:text="test"
+                android:textSize="20dp" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        card_view:cardBackgroundColor="@color/darkBlueGrey2"
+        card_view:cardCornerRadius="2dp"
+        android:elevation="10dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0.0px"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        card_view:cardElevation="10dp"
+        card_view:cardPreventCornerOverlap="false">
+
+        <TextView
+            android:id="@+id/info_text"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="20dp"
+            android:text="test"
+            android:layout_margin="5dp"/>
+    </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
